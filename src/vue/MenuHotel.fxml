@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="menuPane" stylesheets="@MenuHotel.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleur.MenuHotelCtrl">
+   <children>
+      <MenuBar fx:id="menuBarre">
+        <menus>
+          <Menu mnemonicParsing="false" text="Connexion">
+            <items>
+              <MenuItem fx:id="clickMenuConnecter" mnemonicParsing="false" text="Connecter" />
+                  <MenuItem fx:id="clickMenuDeconnecter" mnemonicParsing="false" text="Déconnecter" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Paramètres">
+              <items>
+                <MenuItem fx:id="clickReseau" mnemonicParsing="false" text="Réseau" />
+              </items>
+            </Menu>
+          <Menu fx:id="menuClient" mnemonicParsing="false" text="Clients">
+            <items>
+              <MenuItem fx:id="clickClientSearch" mnemonicParsing="false" text="Rechercher" />
+                  <MenuItem fx:id="clickClientCreate" mnemonicParsing="false" text="Ajouter" />
+            </items>
+          </Menu>
+          <Menu fx:id="menuReserver" mnemonicParsing="false" text="Réservations">
+               <items>
+                  <MenuItem fx:id="clickReserveSearch" mnemonicParsing="false" text="Rechercher" />
+                  <MenuItem fx:id="clickReserveCreate" mnemonicParsing="false" text="Ajouter" />
+               </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Options">
+              <items>
+                <MenuItem fx:id="clickQuitter" mnemonicParsing="false" text="Quitter" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</VBox>

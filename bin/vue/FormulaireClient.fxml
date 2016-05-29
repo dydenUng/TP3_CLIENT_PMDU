@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="resultClientPane" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleur.FormulaireClientCtrl">
+   <children>
+      <HBox>
+         <children>
+            <Label fx:id="labelTitle" text="Label" />
+            <Label fx:id="lblIdClient" />
+         </children>
+      </HBox>
+      <Label text="Prénom">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="txtFieldPrenom" />
+      <Label text="Nom">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="txtFieldNom" />
+      <Label text="Téléphone (xxx xxx-xxxx)">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="txtFieldTel" />
+      <Label text="Adresse">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="txtFieldAdresse" />
+      <Label text="Ville">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="txtFieldVille" />
+      <Label text="Code Postal">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="txtFieldCP" />
+      <HBox fx:id="boxBoutonAjouter" alignment="CENTER_LEFT">
+         <children>
+            <Button fx:id="btnAjouter" minHeight="0.0" mnemonicParsing="false" text="Ajouter" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="5.0" />
+   </padding>
+</VBox>

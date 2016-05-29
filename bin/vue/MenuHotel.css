@@ -1,0 +1,32 @@
+#menuBarre
+{
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-opacity: 0.8;
+    -fx-background-color: derive(#407356,20%);
+}
+
+.context-menu {
+    -fx-background-color: derive(#81A490,30%);
+}
+
+.menu-button, .menu-button:hover, .menu-button:armed,
+.menu-button:focused {
+	-fx-background: #3B5866;
+}
+
+.menu-bar .label {
+    -fx-font-size: 11pt;
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.menu-item:focused {
+     -fx-background-color: derive(#3B5866,20%);
+}
+
+.context-menu {
+	-fx-background-color: #3B5866;
+}
+
+
+

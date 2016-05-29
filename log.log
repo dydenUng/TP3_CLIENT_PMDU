@@ -1,0 +1,64 @@
+Mar 04, 2016 10:18:03 PM modele.Session creerLog
+FINE: Connexion au serveur
+Mar 04, 2016 10:18:04 PM modele.Session connexion
+SEVERE: Erreur dans la connexion au serveur
+Mar 07, 2016 12:19:11 PM modele.Session creerLog
+PRÉCIS: Connexion au serveur
+Mar 07, 2016 12:19:12 PM modele.Session connexion
+PRÉCIS: Connexion au serveur -- IP:/172.18.10.33 -- Port:5558
+Mar 07, 2016 12:23:46 PM modele.Session creerLog
+PRÉCIS: Connexion au serveur
+Mar 07, 2016 12:23:47 PM modele.Session connexion
+PRÉCIS: Connexion au serveur -- IP:/172.18.10.33 -- Port:5558
+Mar 07, 2016 12:29:15 PM modele.Session creerLog
+PRÉCIS: Connexion au serveur
+Mar 07, 2016 12:29:16 PM modele.Session connexion
+GRAVE: Erreur dans la connexion au serveur
+Mar 07, 2016 12:29:33 PM modele.Session creerLog
+PRÉCIS: Connexion au serveur
+Mar 07, 2016 12:29:33 PM modele.Session connexion
+PRÉCIS: Connexion au serveur -- IP:/172.18.10.33 -- Port:5558
+Mar 07, 2016 12:29:38 PM modele.Session closeConnexion
+PRÉCIS: Deconnexion au serveur -- IP:/172.18.10.33 -- Port:5558
+Mar 07, 2016 2:06:54 PM modele.Session creerLog
+PRÉCIS: Connexion au serveur
+Mar 07, 2016 2:06:55 PM modele.Session connexion
+PRÉCIS: Connexion au serveur -- IP:/172.18.10.33 -- Port:5558
+Mar 07, 2016 2:10:55 PM modele.Session closeConnexion
+PRÉCIS: Deconnexion au serveur -- IP:/172.18.10.33 -- Port:5558
+Apr 13, 2016 9:02:34 PM modele.Session creerLog
+FINE: Connexion au serveur
+Apr 13, 2016 9:02:35 PM modele.Session connexion
+SEVERE: Erreur dans la connexion au serveur
+Apr 13, 2016 9:03:03 PM modele.Session creerLog
+FINE: Connexion au serveur
+Apr 13, 2016 9:03:03 PM modele.Session connexion
+FINE: Connexion au serveur -- IP:localhost/127.0.0.1 -- Port:5558
+Apr 13, 2016 9:03:55 PM modele.Session creerLog
+FINE: Connexion au serveur
+Apr 13, 2016 9:03:56 PM modele.Session connexion
+SEVERE: Erreur dans la connexion au serveur
+Apr 13, 2016 9:05:53 PM modele.Session creerLog
+FINE: Connexion au serveur
+Apr 13, 2016 9:05:54 PM modele.Session connexion
+FINE: Connexion au serveur -- IP:localhost/127.0.0.1 -- Port:5558
+Apr 13, 2016 9:10:41 PM modele.Session closeConnexion
+FINE: Deconnexion au serveur -- IP:localhost/127.0.0.1 -- Port:5558
+Apr 13, 2016 9:12:36 PM modele.Session creerLog
+FINE: Connexion au serveur
+Apr 13, 2016 9:12:36 PM modele.Session connexion
+FINE: Connexion au serveur -- IP:localhost/127.0.0.1 -- Port:5558
+Apr 13, 2016 9:14:13 PM modele.Session closeConnexion
+FINE: Deconnexion au serveur -- IP:localhost/127.0.0.1 -- Port:5558
+Apr 13, 2016 9:14:18 PM modele.Session creerLog
+FINE: Connexion au serveur
+Apr 13, 2016 9:14:18 PM modele.Session connexion
+FINE: Connexion au serveur -- IP:localhost/127.0.0.1 -- Port:5558
+Apr 13, 2016 9:14:23 PM modele.Session closeConnexion
+FINE: Deconnexion au serveur -- IP:localhost/127.0.0.1 -- Port:5558
+Apr 13, 2016 9:14:27 PM modele.Session creerLog
+FINE: Connexion au serveur
+Apr 13, 2016 9:14:27 PM modele.Session connexion
+FINE: Connexion au serveur -- IP:localhost/127.0.0.1 -- Port:5558
+Apr 13, 2016 9:20:11 PM modele.Session closeConnexion
+FINE: Deconnexion au serveur -- IP:localhost/127.0.0.1 -- Port:5558

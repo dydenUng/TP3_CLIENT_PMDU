@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="resultReserverPane" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleur.FormulaireReserverCtrl">
+   <children>
+      <Label fx:id="lblTtile" text="Titre" />
+      <Label text="Numéro Client">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="txtFieldNoClient" />
+      <Label text="Numéro de chambre">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="txtFieldNoChambre" />
+      <Label text="Date d'arrivée">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <DatePicker fx:id="datePickArrivee" />
+      <Label text="Date de départ">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <DatePicker fx:id="datePickQuittee" />
+      <HBox alignment="CENTER_LEFT">
+         <children>
+            <Button fx:id="btnAjouter" mnemonicParsing="false" text="Ajouter">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin></Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="5.0" />
+   </padding>
+</VBox>

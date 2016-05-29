@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="boxFiche" stylesheets="@Main.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleur.FicheClientCtrl">
+   <children>
+      <Label text="Numéro Client" />
+      <TextField fx:id="fieldNoClient" disable="true" style="-fx-opacity: 1;" />
+      <Label text="Prénom">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="fieldPrenom" disable="true" style="-fx-opacity: 1;" />
+      <Label text="Nom">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="fieldNom" disable="true" style="-fx-opacity: 1;" />
+      <Label text="Téléphone">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="fieldTelephone" disable="true" style="-fx-opacity: 1;" />
+      <Label text="Adresse">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="fieldAdresse" disable="true" style="-fx-opacity: 1;" />
+      <Label text="Ville">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="fieldVille" disable="true" style="-fx-opacity: 1;" />
+      <Label text="Code Postal">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="fieldCodePostal" disable="true" style="-fx-opacity: 1;" />
+      <HBox alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" spacing="7.0">
+         <children>
+            <VBox spacing="7.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Button fx:id="btnModifier" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="75.0" text="Modifier" />
+                  <Button fx:id="btnConfimer" disable="true" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="75.0" text="Confimer" />
+                  <Button fx:id="btnAnnuler" disable="true" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="75.0" text="Annuler" />
+               </children>
+            </VBox>
+            <Button fx:id="btnFermer" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="75.0" text="Fermer" HBox.hgrow="ALWAYS" />
+            <Button fx:id="btnSupprimer" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="75.0" text="Supprimer" HBox.hgrow="ALWAYS" />
+         </children>
+         <VBox.margin>
+            <Insets top="18.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</VBox>

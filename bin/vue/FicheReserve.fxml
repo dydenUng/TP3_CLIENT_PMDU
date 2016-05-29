@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="boxFiche" stylesheets="@Main.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleur.FicheReserveCtrl">
+   <children>
+      <Label text="Numéro Réservation" />
+      <TextField fx:id="fieldNoReserve" disable="true" style="-fx-opacity: 1;" />
+      <Label text="Date d'arrivée">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <DatePicker fx:id="datePickArrivee" disable="true" maxWidth="1.7976931348623157E308" style="-fx-opacity: 1;" />
+      <Label text="Date de départ">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <DatePicker fx:id="datePickQuittee" disable="true" maxWidth="1.7976931348623157E308" style="-fx-opacity: 1;" />
+      <Label text="Numéro de chambre">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="fieldNoChambre" disable="true" style="-fx-opacity: 1;" />
+      <Label text="Numéro de client">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="fieldNoClient" disable="true" style="-fx-opacity: 1;" />
+      <HBox alignment="TOP_CENTER" maxWidth="1.7976931348623157E308" spacing="7.0">
+         <children>
+            <VBox spacing="7.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Button fx:id="btnModifier" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="75.0" text="Modifier" />
+                  <Button fx:id="btnConfirmer" disable="true" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="75.0" text="Confirmer" />
+                  <Button fx:id="btnAnnuler" disable="true" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="75.0" text="Annuler" />
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </VBox>
+            <Button fx:id="btnFermer" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="75.0" text="Fermer" HBox.hgrow="ALWAYS" />
+            <Button fx:id="btnSupprimer" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="75.0" text="Supprimer" HBox.hgrow="ALWAYS" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" top="18.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</VBox>
